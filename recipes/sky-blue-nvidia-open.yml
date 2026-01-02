@@ -2,6 +2,10 @@
 name: sky-blue
 description: Sky Blue Linux
 
+alt-tags:
+  - stable
+  - stable-weekly
+
 base-image: ghcr.io/ublue-os/bluefin-dx-nvidia-open
 image-version: stable
 
