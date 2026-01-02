@@ -5,4 +5,4 @@ modules:
       - "chmod +x /usr/libexec/sky-blue-user-setup.sh"
   - type: script
     snippets:
-      - "systemctl enable sky-blue-user-setup.service"
+      - "systemctl --global enable sky-blue-user-setup.service"
