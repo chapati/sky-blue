@@ -1,6 +1,6 @@
 # Sky Blue Linux
 
-This a custum OCI Linux images based on the Project Bluefin DX with several custom modifications.
+This a custum OCI Linux image based on the Project Bluefin DX with several custom modifications.
 N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 
 ## Installation
