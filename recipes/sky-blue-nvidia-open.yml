@@ -17,6 +17,7 @@ modules:
 
   - from-file: features/cli-tools.yml
   - from-file: features/google-chrome.yml
+  - from-file: features/firefox-dev.yml
   - from-file: features/user-setup.yml
 
   - type: signing

@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+modules:
+  - type: script
+    snippets:
+      - "wget https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US"
+      - "tar xjf firefox-*.tar.bz2"
+      - "mv firefox /usr/lib/opt/firefox-dev"
+      - "ln -s /usr/lib/opt/opt/firefox-dev/firefox /usr/local/bin/firefox-dev"
+      - "ln -s /usr/lib/opt/firefox-dev /var/opt/firefox-dev"
