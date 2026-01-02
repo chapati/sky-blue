@@ -11,4 +11,11 @@ image-version: stable
 
 modules:
   - from-file: features/google-chrome.yml
+  
+  - type: files
+    files:
+      - source: system
+        destination: /
+
   - type: signing
+  

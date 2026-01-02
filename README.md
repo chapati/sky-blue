@@ -3,6 +3,12 @@
 This a custum OCI Linux image based on the Project Bluefin DX with several custom modifications.
 N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 
+## Image Features
+
+* Google Chrome stable installed and pinned to dock
+* Disabled overview on startup 
+* Adjusted dash-to-dock defaults
+
 ## Installation
 
 * Install the latest [BlueFin](https://projectbluefin.io/)
