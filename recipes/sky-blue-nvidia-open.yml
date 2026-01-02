@@ -15,6 +15,7 @@ modules:
       - source: system
         destination: /
 
+  - from-file: features/cli-tools.yml
   - from-file: features/google-chrome.yml
   - from-file: features/user-setup.yml
 

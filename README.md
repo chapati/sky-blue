@@ -5,13 +5,17 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 
 ## Image Features
 
-* Google Chrome stable installed and pinned to dock
-* Custom dash-to-dock defaults including disabling overview on startup (already existing user settings are preserved)
+* Google Chrome stable
+* Firefox developer edition
+* Custom dash-to-dock defaults including disabling overview on startup
 
 ## Installation
 
 * Install the latest [BlueFin](https://projectbluefin.io/)
 * Switch to the Sky Blue image
+
+Already exisitng user settings are not overwritten. To enjoy full spectrum of features including all defaults it is 
+advised to create a new user.
 
 ```bash
 sudo bootc switch ghcr.io/chapati/sky-blue-nvidia-open:stable --enforce-container-sigpolicy
