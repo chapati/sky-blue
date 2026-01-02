@@ -6,8 +6,7 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 ## Image Features
 
 * Google Chrome stable installed and pinned to dock
-* Disabled overview on startup 
-* Adjusted dash-to-dock defaults
+* Custom dash-to-dock defaults including disabling overview on startup (already existing user settings are preserved)
 
 ## Installation
 

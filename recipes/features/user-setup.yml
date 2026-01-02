@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+modules:
+  - type: script
+    snippets:
+      - "chmod +x /usr/libexec/sky-blue-user-setup.sh"
+      - "systemctl enable sky-blue-user-setup.service"

@@ -10,12 +10,12 @@ base-image: ghcr.io/ublue-os/bluefin-dx-nvidia-open
 image-version: stable
 
 modules:
-  - from-file: features/google-chrome.yml
-  
   - type: files
     files:
       - source: system
         destination: /
 
+  - from-file: features/google-chrome.yml
+  - from-file: features/user-setup.yml
+
   - type: signing
-  
