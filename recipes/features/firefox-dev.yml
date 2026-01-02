@@ -3,6 +3,7 @@ modules:
   - type: script
     snippets:
       - "wget \"https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US\"" # double quotes for url are mandatory beacuse of & char
+      - "ls -lah"
       - "tar xf firefox-*.tar.xz"
       - "mv firefox /usr/lib/opt/firefox-dev"
       - "ln -s /usr/lib/opt/firefox-dev /var/opt/firefox-dev"
