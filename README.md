@@ -7,6 +7,7 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 
 * Google Chrome stable
 * Firefox developer edition
+* Sublime Merge
 * Custom dash-to-dock defaults including disabling overview on startup
 
 ## Installation
