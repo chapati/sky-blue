@@ -3,6 +3,6 @@ modules:
   - type: script
     snippets:
       - "wget https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US"
-      - "tar xjf firefox-*.tar.bz2"
+      - "tar xf firefox-*.tar.xz"
       - "mv firefox /usr/lib/opt/firefox-dev"
       - "ln -s /usr/lib/opt/firefox-dev /var/opt/firefox-dev"
