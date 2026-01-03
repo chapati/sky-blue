@@ -3,11 +3,7 @@
 # So we replace it with the normal version
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 # TODO: check hardware acceleration
-modules:
-  - type: script
-    snippets:
-      - "flatpak uninstall --system --delete-data --app org.mozilla.firefox"
-      - "flatpak uninstall --system --unused"
+modules:    
   - type: dnf
     install:
       packages:
