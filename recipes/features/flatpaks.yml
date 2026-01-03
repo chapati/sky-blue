@@ -6,3 +6,4 @@ modules:
         scope: system
         install:
           - md.obsidian.Obsidian
+          - org.telegram.desktop
