@@ -6,8 +6,11 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 ## Image Features
 
 * Google Chrome stable
+* Firefox flatpak to native package
 * Firefox developer edition
 * Sublime Merge
+* Obsidian flatpak
+* Telegram Desktop flatpak
 * Custom dash-to-dock defaults including disabling overview on startup
 
 ## Installation
