@@ -18,7 +18,11 @@ modules:
   - from-file: features/cli-tools.yml
   - from-file: features/google-chrome.yml
   - from-file: features/firefox-dev.yml
-  - from-file: features/sublime.yml
+  # At them moment there is an issue with the sublime signatures
+  # Need to remove sublime-fix when it is fixed
+  # https://forum.sublimetext.com/t/installation-in-fedora-43-not-possible/77387
+  - from-file: features/sublime-fix.yml
+  #- from-file: features/sublime.yml
   - from-file: features/user-setup.yml
 
   - type: signing

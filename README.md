@@ -15,13 +15,13 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 * Install the latest [BlueFin](https://projectbluefin.io/)
 * Switch to the Sky Blue image
 
-Already exisitng user settings are not overwritten. To enjoy full spectrum of features including all defaults it is 
-advised to create a new user.
-
 ```bash
 sudo bootc switch ghcr.io/chapati/sky-blue-nvidia-open:stable --enforce-container-sigpolicy
 systemctl reboot
 ```
+
+Already exisitng user settings are not overwritten. To enjoy full spectrum of features including all defaults it is 
+advised to create a new user.
 
 ## Verification
 

@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+modules:
+  - type: script
+    snippets:
+      - "curl -L \"https://download.sublimetext.com/sublime-merge-2121-1.x86_64.rpm\" > sublime-merge.rpm"
+      - "rpm -ivh --nodigest --nofiledigest --force sublime-merge.rpm"
