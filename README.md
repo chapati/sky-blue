@@ -6,7 +6,7 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 ## Image Features
 
 * Google Chrome stable
-* Firefox flatpak to native package
+* Firefox flatpak to native package. WARNING: user data/profile would be deleted
 * Firefox developer edition
 * Sublime Merge
 * Obsidian flatpak
