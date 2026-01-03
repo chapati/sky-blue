@@ -17,6 +17,7 @@ modules:
 
   - from-file: features/cli-tools.yml
   - from-file: features/google-chrome.yml
+  - from-file: features/firefox.yml
   - from-file: features/firefox-dev.yml
   # At them moment there is an issue with the sublime signatures
   # Need to remove sublime-fix when it is fixed

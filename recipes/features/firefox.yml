@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+# Firefox in flatpak is insecure (lacks proper sandboxing)
+# So we replace it with the normal version
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+# TODO: check hardware acceleration
+modules:
+  - type: script
+    snippets:
+      - "flatpak uninstall --delete-data org.mozilla.firefox"
+      - "flatpak uninstall --unused"
+  - type: dnf
+    install:
+      packages:
+        - firefox

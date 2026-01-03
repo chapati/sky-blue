@@ -1,4 +1,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+# TODO: check if weaker crypto policies can help
+#       https://github.com/rrenomeron/bootc-images/blob/main/recipes/features/vscode.yml
 modules:
   - type: script
     snippets:
