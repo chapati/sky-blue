@@ -1,0 +1,10 @@
+[Unit]
+Description=Configure SkyBlue
+ConditionUser=@system
+
+[Service]
+Type=simple
+ExecStart=/usr/libexec/sblue-system-setup.sh
+
+[Install]
+WantedBy=default.target
