@@ -6,8 +6,8 @@
 modules:
   - type: script
     snippets:
-      - "flatpak uninstall --delete-data org.mozilla.firefox"
-      - "flatpak uninstall --unused"
+      - "flatpak uninstall --system --delete-data --app org.mozilla.firefox"
+      - "flatpak uninstall --system --unused"
   - type: dnf
     install:
       packages:
