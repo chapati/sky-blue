@@ -4,3 +4,4 @@ modules:
     snippets:
       - "curl -L \"https://download.sublimetext.com/sublime-merge-2121-1.x86_64.rpm\" > sublime-merge.rpm"
       - "rpm -ivh --nodigest --nofiledigest --force sublime-merge.rpm"
+      - "rm sublime-merge.rpm"

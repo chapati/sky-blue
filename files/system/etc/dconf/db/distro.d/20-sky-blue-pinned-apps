@@ -1,2 +1,2 @@
 [org/gnome/shell]
-favorite-apps=['org.gnome.Nautilus.desktop','firefox-dev.desktop','google-chrome.desktop','org.mozilla.firefox.desktop','code.desktop','sublime_merge.desktop','org.mozilla.Thunderbird.desktop','io.github.kolunmi.Bazaar.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop','firefox-dev.desktop','google-chrome.desktop','org.mozilla.firefox.desktop','code.desktop','org.gnome.Ptyxis.desktop','sublime_merge.desktop','org.mozilla.Thunderbird.desktop','io.github.kolunmi.Bazaar.desktop']
