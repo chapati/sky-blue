@@ -7,3 +7,6 @@ modules:
         install:
           - md.obsidian.Obsidian
           - org.telegram.desktop
+          - com.mongodb.Compass
+          - org.qbittorrent.qBittorrent
+          - com.bitwarden.desktop

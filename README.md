@@ -11,6 +11,9 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 * Sublime Merge
 * Obsidian flatpak
 * Telegram Desktop flatpak
+* MongoDb Compass flatpak
+* qBittorent flatpak
+* Bitwarden flatpak
 * Custom dash-to-dock defaults including disabling overview on startup
 
 ## Installation
