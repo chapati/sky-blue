@@ -25,6 +25,7 @@ modules:
   - from-file: features/sublime-fix.yml
   #- from-file: features/sublime.yml
   - from-file: features/flatpaks.yml
+  - from-file: features/system-setup.yml
   - from-file: features/user-setup.yml
 
   - type: signing
