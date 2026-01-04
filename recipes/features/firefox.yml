@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 # Firefox in flatpak is insecure (lacks proper sandboxing)
 # So we replace it with the normal version
-# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+# https://discuss.privacyguides.net/t/firefox-sandbox-when-installed-as-flatpak-is-it-fixed-yet/29031/4
 # TODO: check hardware acceleration
 modules:    
   - type: dnf

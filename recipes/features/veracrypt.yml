@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+modules:
+  - type: script
+    snippets:
+      - "rpm --import \"https://amcrypto.jp/VeraCrypt/VeraCrypt_PGP_public_key.asc\""
+      - "curl -L \"https://launchpad.net/veracrypt/trunk/1.26.24/+download/veracrypt-1.26.24-Fedora-40-x86_64.rpm\" > veracrypt.rpm"
+      - "rpm -iv veracrypt.rpm"
+      - "rm veracrypt.rpm"

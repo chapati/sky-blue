@@ -24,6 +24,7 @@ modules:
   # https://forum.sublimetext.com/t/installation-in-fedora-43-not-possible/77387
   - from-file: features/sublime-fix.yml
   #- from-file: features/sublime.yml
+  - from-file: features/veracrypt.yml
   - from-file: features/flatpaks.yml
   - from-file: features/system-setup.yml
   - from-file: features/user-setup.yml

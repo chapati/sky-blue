@@ -10,3 +10,4 @@ modules:
           - com.mongodb.Compass
           - org.qbittorrent.qBittorrent
           - com.bitwarden.desktop
+          - eu.betterbird.Betterbird
