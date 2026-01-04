@@ -8,3 +8,5 @@ fi
 
 flatpak uninstall --system --delete-data --app org.mozilla.firefox || true
 flatpak uninstall --system --unused || true
+
+echo "SkyBlue system setup OK"
