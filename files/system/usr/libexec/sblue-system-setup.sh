@@ -6,7 +6,7 @@ if [ "${EUID:-$(id -u)}" -gte 1000 ]; then
   exit 1
 fi
 
-flatpak uninstall --system --delete-data --app org.mozilla.firefox || true
-flatpak uninstall --system --unused || true
+flatpak uninstall -y --system --delete-data --app org.mozilla.firefox || true
+flatpak uninstall -y --system --unused || true
 
 echo "SkyBlue system setup OK"
