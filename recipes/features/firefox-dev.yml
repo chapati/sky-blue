@@ -2,8 +2,6 @@
 modules:
   - type: script
     snippets:
-      # file is downloaded into the root folder (/)
-      # double quotes for url are mandatory beacuse of the '&' char
       - "curl -L 'https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US' > firefox-dev.tar.xz" 
       - "tar xf firefox-dev.tar.xz"
       - "mv firefox /usr/lib/opt/firefox-dev"
