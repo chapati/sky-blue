@@ -6,7 +6,7 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 ## Image Features
 
 * Google Chrome stable
-* Firefox flatpak to native package. WARNING: user data/profile would be deleted
+* Firefox flatpak to native package. WARNING: If switching from the image with the flatpak-based firefox user data/profile would be deleted
 * Firefox developer edition
 * Sublime Merge
 * Obsidian flatpak
@@ -23,7 +23,7 @@ sudo bootc switch ghcr.io/chapati/sky-blue-nvidia-open:stable --enforce-containe
 systemctl reboot
 ```
 
-Already exisitng user settings are not overwritten. To enjoy full spectrum of features including all defaults it is 
+Already exisitng user settings are not overwritten. To enjoy the full spectrum of features including all defaults it is 
 advised to create a new user.
 
 ## Verification

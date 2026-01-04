@@ -4,6 +4,6 @@ modules:
     snippets:
       - "chmod +x /usr/libexec/sblue-system-setup.sh"
   - type: systemd
-    user:
+    system:
       enabled:
         - sblue-system-setup.service
