@@ -2,7 +2,8 @@
 modules:
   - type: dnf
     remove:
-      - tailscale
+      packages:
+        - tailscale
   - type: script
     snippets:
       - "chmod +x /usr/libexec/sblue-system-setup.sh"
