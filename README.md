@@ -13,9 +13,18 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 * Veracrypt
 * Obsidian flatpak
 * Telegram Desktop flatpak
+* Slack flatpak
+* Zoom flatpak
 * MongoDb Compass flatpak
 * qBittorent flatpak
 * Bitwarden flatpak
+* Grayjay flatpak
+* Gapeless flatpak
+* Foliate flatpak
+* Gapeless flatpak
+* Tauon flatpak
+* Tailscale VPN removed (comes with base image)
+* Docker service disabled (rootful docker)
 * Custom dash-to-dock defaults including disabling overview on startup
 
 ## Installation

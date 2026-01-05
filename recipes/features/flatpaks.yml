@@ -11,3 +11,9 @@ modules:
           - org.qbittorrent.qBittorrent
           - com.bitwarden.desktop
           - eu.betterbird.Betterbird
+          - app.grayjay.Grayjay
+          - com.github.johnfactotum.Foliate
+          - com.github.neithern.g4music
+          - com.github.taiko2k.tauonmb
+          - com.slack.Slack
+          - us.zoom.Zoom

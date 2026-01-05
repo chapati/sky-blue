@@ -26,6 +26,7 @@ modules:
   #- from-file: features/sublime.yml
   - from-file: features/veracrypt.yml
   - from-file: features/flatpaks.yml
+  - from-file: features/docker.yml
   - from-file: features/system-setup.yml
   - from-file: features/user-setup.yml
 

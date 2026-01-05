@@ -4,6 +4,7 @@
 modules:
   - type: dnf
     repos:
+      cleanup: true
       files:
         - google-chrome.repo
     install:

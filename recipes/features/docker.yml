@@ -1,0 +1,11 @@
+modules:
+  - type: systemd
+    system:
+      disable:
+      # Disable the abomination known as rootful Docker
+      - docker.service
+      - docker.socket
+  - type: script
+    snippets:
+      # Disable the rootful Docker
+      - "rm /var/run/docker.sock"
