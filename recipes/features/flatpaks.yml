@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
+# TODO: check why flatpaks are not installed during build but only after boot/with delay
 modules:
   - type: default-flatpaks
     configurations:
@@ -17,3 +18,4 @@ modules:
           - com.github.taiko2k.tauonmb
           - com.slack.Slack
           - us.zoom.Zoom
+          - org.cockpit_project.CockpitClient

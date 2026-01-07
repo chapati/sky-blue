@@ -4,6 +4,9 @@ modules:
     remove:
       packages:
         - tailscale
+    install:
+      packages:
+        - gnome-calculator
   - type: script
     snippets:
       - "chmod +x /usr/libexec/sblue-system-setup.sh"
