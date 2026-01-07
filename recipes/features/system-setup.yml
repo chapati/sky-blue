@@ -6,7 +6,7 @@ modules:
         - tailscale
     install:
       packages:
-        - gnome-calculator
+        - clapper
   - type: script
     snippets:
       - "chmod +x /usr/libexec/sblue-system-setup.sh"

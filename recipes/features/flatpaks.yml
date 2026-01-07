@@ -1,5 +1,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/module-stage-list-v1.json
 # TODO: check why flatpaks are not installed during build but only after boot/with delay
+# TODO: check why it was decided to use flatpaks for gnome apps
 modules:
   - type: default-flatpaks
     configurations:

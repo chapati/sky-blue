@@ -8,7 +8,7 @@ N.B. At the moment bluefin-dx-nvidia-open image is used as a base.
 * Google Chrome stable
 * Firefox flatpak to native package. WARNING: If switching from the image with the flatpak-based firefox user data/profile would be deleted
 * Thunderbird flatpak replaced with BetterBird flatpak. WARNING: If switching from the image with the flatpak-based thunderbird user data/profile would be deleted
-* Gnome calculator to native package
+* Showtime flatpak replaced with native Clapper
 * Firefox developer edition
 * Sublime Merge
 * Veracrypt

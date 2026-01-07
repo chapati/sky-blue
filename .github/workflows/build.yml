@@ -32,6 +32,8 @@ jobs:
           - sky-blue-nvidia-open.yml
     steps:
       - name: Build Custom Image
+        # TODO: check if it is possible to split into steps
+        # TODO: check if it is possible to setup cache
         uses: blue-build/github-action@v1.10
         with:
           recipe: ${{ matrix.recipe }}
