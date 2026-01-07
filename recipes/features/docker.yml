@@ -1,11 +1,12 @@
 modules:
+  # TODO: check guide https://docs.docker.com/engine/security/rootless/
   - type: systemd
     system:
       disable:
-      # Disable the abomination known as rootful Docker
+      # Disable rootful Docker
       - docker.service
       - docker.socket
   - type: script
     snippets:
-      # Disable the rootful Docker
-      - "rm /var/run/docker.sock"
+      # Disable rootful Docker
+      - "rm /var/run/docker.sock || true"
